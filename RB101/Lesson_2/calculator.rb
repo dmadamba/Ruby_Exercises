@@ -100,7 +100,7 @@ loop do # main loop
 
   prompt("The result is #{result}")
 
-  prompt("Do you wnat to perform another calculation? (Y to calculate again)")
+  prompt("Do you want to perform another calculation? (Y to calculate again)")
   answer = gets.chomp
   break unless answer.downcase.start_with?('y')
 end
